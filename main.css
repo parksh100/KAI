@@ -4,84 +4,29 @@ body {
     font-family: 'NanumSquare', sans-serif;
     }
  
-h2{
-    font-family: Arial, Helvetica, sans-serif;
- }
 
- h4{
-     font-weight: bold;
- }
-
-.container{
-    text-align: center;
-
-}
-
- .explain-container p{
-     padding: 20px;
- }
-
- .card-container {
-     text-align: center;
-     max-width: 1200px;
-     margin: auto;
-     margin-top: 70px;
- }
-
- .card-container i {
-    color: burlywood;
+.company-name {
     
- }
+}
 
-.explain-container{
+.companyname {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+
+h1 {
     text-align: center;
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 70px;
 }
 
-.explain-container div{
-    margin-top: 50px;
-    float: left;
-    width: 33.3%;
-}
-
-.explain-container i{
-    background-color: burlywood ;
-    width: 100px;
-    height: 100px;
-    padding-top: 25px;
-    border-radius: 50px;
-    color: white;
-    margin-bottom: 20px;
+.main-explain {
+    text-align: center;
 }
 
 
 
-
-/* footer */
-.row{
-    background-color: grey;
-}
-
-
-
-
-
-
-
-@media screen and (max-width: 992px){
-    .explain-container div{
-        float: left;
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .explain-container div{
-        float: none;
-        width: 100%
-    }
-}
+.btn {
+    display: block;
     
 }
